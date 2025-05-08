@@ -11,7 +11,14 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "mongoose": "^8.14.1",
+    "os": "^0.1.2",
+    "os-utils": "^0.0.14",
+    "pg": "^8.15.6",
+    "pg-pool": "^3.9.6",
+    "systeminformation": "^5.25.11",
     "util": "^0.12.5"
   }
 }
