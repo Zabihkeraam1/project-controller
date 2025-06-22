@@ -1,6 +1,6 @@
 const express = require('express');
 const { exec } = require('child_process');
-const pool = require('./db_connect');
+// const pool = require('./db_connect');
 const util = require('util');
 const execPromise = util.promisify(exec);
 const {app} = require('./app.js');
@@ -102,7 +102,7 @@ const {app} = require('./app.js');
 // });
 
 
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 3000;
 const HOST = "0.0.0.0";
 app.listen(PORT, HOST, () => {
     console.log(`Server running on port ${PORT}`);
